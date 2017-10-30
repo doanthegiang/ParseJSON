@@ -16,11 +16,11 @@ Example:
 @end
 ----
 *Use method 
->block quote 
+>
 NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 ----
 *Result
-##usage
+##
 {
     avatar = "https://github.com/doanthegiang/ParseJSON.git";
     gender = name;
@@ -34,7 +34,7 @@ NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 Example:
 
 *Create modal
->block quote
+>
 @interface Demo: NSObject
 @property (weak, nonatomic) NSString *id;
 @property (weak, nonatomic) NSString *gender;
@@ -42,7 +42,7 @@ Example:
 @end
 ----
 *Use method 
->block quote 
+>
 *Reponse JSON:
 @{
         @"id": @"1000",
