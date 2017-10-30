@@ -54,4 +54,4 @@ Demo *c = [[Demo alloc] init]; // init model
 [c parseDictionaryToObject:[self initializationDictionary]];
 ----
 
-##Sorry, my english is like shit!
+# Sorry, my english is like shit!
