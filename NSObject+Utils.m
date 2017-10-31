@@ -65,7 +65,7 @@
         {
             NSString *message = [NSString stringWithFormat:@" not exist: %@", key];
             LOG_TYPE_OBJECT(message);
-            break;
+            continue;
         }
         
         if (   [value isKindOfClass:[NSDictionary class]]          /* Reponse is Object */
