@@ -2,7 +2,7 @@
  Hello guys! This is Parsing JSON method by Giang Doan
  ----
 ## Use
-1. Method: (NSDictionary *) convertObjectToDictionary: (id) object
+1. Method: `(NSDictionary *) convertObjectToDictionary: (id) object`
 - Convert Object to NSDictionary if you are lazy to do it because it's so long or so params.
 
 Example:
@@ -21,7 +21,6 @@ NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 ```
 ## Result
 ```
- code
 {
     avatar = "https://github.com/doanthegiang/ParseJSON.git";
     gender = name;
@@ -30,7 +29,7 @@ NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 
 ```
 
-2. Method: (void) parseDictionaryToObject: (NSDictionary *) dictionary
+2. Method: `(void) parseDictionaryToObject: (NSDictionary *) dictionary`
 - Convert JSON to Object (before you make do it allow so you just convert JSON to NSDictionary)
 
 Example:
