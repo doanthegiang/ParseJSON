@@ -7,7 +7,7 @@
 
 Example:
 
-##Create modal
+## Create modal
 ```
 @interface Demo: NSObject
 @property (weak, nonatomic) NSString *id;
@@ -15,11 +15,11 @@ Example:
 @property (weak, nonatomic) NSString *avatar;
 @end
 ```
-##Use method:
+## Use method:
 ```
 NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 ```
-##Result
+## Result
 ```
  code
 {
@@ -35,25 +35,26 @@ NSDictionary *demo = [Demo convertObjectToDictionary: [[Demo alloc] init]];
 
 Example:
 
-*Create modal
->
+## Create modal
+```
 @interface Demo: NSObject
 @property (weak, nonatomic) NSString *id;
 @property (weak, nonatomic) NSString *gender;
 @property (weak, nonatomic) NSString *avatar;
 @end
-----
-*Use method 
->
-*Reponse JSON:
+```
+## Use method 
+```
 @{
         @"id": @"1000",
         @"gender": @"10",
         @"avatar": @"giang"
 }
-*Use method: 
+```
+## Use method: 
+```
 Demo *c = [[Demo alloc] init]; // init model
 [c parseDictionaryToObject:[self initializationDictionary]];
-----
+```
 
 # Sorry, my english is like shit!
